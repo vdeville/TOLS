@@ -35,6 +35,6 @@ fi
 
         yes Y |apt-get install vncviewer > /dev/null
         echo "$GREEN Lancement de la session..$RED"
-        vncviewer $IP
         echo "$RESTORE"
+        vncviewer $IP
         exit 1
