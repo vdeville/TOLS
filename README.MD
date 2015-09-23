@@ -1,4 +1,4 @@
-# Teacher Oneline Stream
+# Teacher Online Stream
 
 Mon projet utilise:
   - X11VNC
