@@ -27,7 +27,7 @@ then
         echo "Pour rappel de la syntaxe:"
         echo "./viewer.sh [ARGUMENT (IP)]"
         echo
-        echo "Exemple: $LRED./viewers.sh 192.168.1.0"
+        echo "Exemple: $LRED./clientVNC.sh 192.168.1.0"
         echo
         echo $RESTORE
         exit 1
