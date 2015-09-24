@@ -33,8 +33,10 @@ then
         exit 1
 fi
 
+        yes Y |apt-get install screen > /dev/null
         yes Y |apt-get install vncviewer > /dev/null
         echo "$GREEN Lancement de la session..$RED"
+        echo " Lancemement du screen.. $RESTORE"
+        screen -S vncCLIENT -d -m vncviewer $IP
+        echo "$GREEN Screen lancé faite $BLUE screen -r vncCLIENT $GREEN pour l'afficher."
         echo "$RESTORE"
-        vncviewer $IP
-        exit 1

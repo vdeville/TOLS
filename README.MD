@@ -32,3 +32,12 @@ Seulement un download:
     ```sh
     $ wget https://github.com/MyTheValentinus/TOLS/blob/master/clienVNC.sh
     ```
+
+
+# NOTE DE VERSION
+
+* V1:
+    >   Initial Commit
+
+* V2:
+    >   Ajout de screen au script clientVNC.sh
